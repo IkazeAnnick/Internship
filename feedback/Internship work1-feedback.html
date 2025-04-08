@@ -6,8 +6,13 @@
 
 <h3>Talk to me Baaaby!</h3>
 
-<div class="contact">
-  <form action="/admin/admin.html">
+<div class="container">
+<div class="form-box">
+  <div class="image-side">
+     <img src="log.avif" alt="feedback">
+  </div>
+  <div class="form-side">
+  <form class="contact" action="/admin/admin.html" method="post">
     <label for="fname">Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your Name.." required>
      <label for="email">Email</label>
@@ -27,9 +32,10 @@
     <label for="subject">Comments</label>
     <textarea id="message" name="message" placeholder="Message.." style="height:100px"></textarea>
 
-    <button>Submit </button>
+    <input type="submit" value="Submit">
   </form>
 </div>
-
+</div>
+</div>
 </body>
 </html>
