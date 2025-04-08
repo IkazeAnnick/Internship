@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgb(134, 138, 14) 0%, rgb(221, 177, 33) 35%, yellow 100%);
+    padding: 20px;
+}
+
+.dashboard {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffffd4;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #e9560c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    background-color: #e9560c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-container button:hover {
+    background-color: #c0450a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4a261;
+    color: white;
+}
+
+td button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+td .edit {
+    background-color: #2a9d8f;
+    color: white;
+    margin-right: 5px;
+}
+
+td .delete {
+    background-color: #e63946;
+    color: white;
+}
